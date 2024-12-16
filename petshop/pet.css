@@ -1,0 +1,85 @@
+body {
+    background-image:url(../pata-removebg-preview.png) ;
+    font-family: Arial, sans-serif;
+    background-color: rgb(216, 181, 236);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   width: 80%;
+   margin: auto;
+   background-color: rgb(255, 255, 255); 
+   padding: 20px;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+   border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+    color: #333;
+}
+
+input{
+    padding: 8px;
+    margin-bottom:10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    background-color: #025704;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+ 
+button :hover{
+background-color: #1e3a50;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th{
+    background-color: #2a4d69;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+.remover-btn{
+background-color: #ff4d4d;
+color: white;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.remover-btn:hover {
+background-color: #d63333;
+}

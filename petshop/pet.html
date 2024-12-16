@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pet.css">
+</head>
+<body>
+    
+    <h1>Agendamento de Banho e Tosa</h1>
+    <div class="container">
+    <form id="formPet">
+        <label for="nomePet">Nome do Pet:</label>
+        <input type="text" id="nomePet" name="nomePet" placeholder="Digite o nome do pet" required>
+        <label for="RacaPet">Raça:</label>
+        <input type="text" id="RacaPet" placeholder="Digite a Raca" required>
+        <label for="donopet">Dono do Pet:</label>
+        <input type="text" id="donopet" name="Dono" placeholder="Digite o nome do Dono" required>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="Telefone" placeholder="(00) 0000-0000" required>
+
+        <button
+        type="submit"> Agendar Pet</button>
+        <form action=""></form>
+        <table id="Tabela">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome do Pet</th>
+                    <th>Raça</th>
+                    <th>Dono</th>
+                    <th>Telefone</th>
+                    <th>Remover</th>
+                </tr>
+            </thead>
+        </table>
+    </form>
+</div>
+<script src="pet.js"></script>
+</body>
+
+</html>
